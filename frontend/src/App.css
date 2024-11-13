@@ -1,0 +1,63 @@
+.custom-shadow {
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* for user table dsplaying all users */
+
+.user-table {
+    @apply bg-white ;
+}
+
+.user-table th {
+    @apply border text-base font-medium px-4 py-2;
+}
+
+.user-table td {
+    @apply border text-base px-4 py-2 text-center;
+}
+
+
+/* animation for some small buttons */
+
+/* app.css */
+
+@keyframes shake {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-0deg);
+    }
+    50% {
+      transform: rotate(60deg);
+    }
+    75% {
+      transform: rotate(-0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  
+  
+
+.shake {
+    animation: shake 0.8s ease-in-out infinite;
+  }
+  
+  .shake:hover {
+    animation: none; 
+  }
+ 
+  
+/* horizontal scroll bar hiding */
+
+.scroll-none::-webkit-scrollbar{
+  display: none ;
+}
+
+.active-image {
+  border: 2px solid #949ba3; 
+}
